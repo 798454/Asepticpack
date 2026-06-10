@@ -1,5 +1,5 @@
 import ProductCard from "./ProductCard";
-import RollsImage from "../assets/Rolls1.png";
+
 import RollsImage from "../assets/Rolls1.png";
 import PouchImage from "../assets/pouchs1.png";
 import IndicatorImage from "../assets/item1.jpg";
