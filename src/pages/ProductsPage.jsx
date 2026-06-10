@@ -1,53 +1,58 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { FiArrowRight } from "react-icons/fi";
+import RollsImage from "../assets/Rolls1.png";
+import PouchImage from "../assets/pouchs1.png";
+import ITapesImage from "../assets/Itapes.png";
+import StripsImage from "../assets/Strips.png";
+import BowieDickImage from "../assets/Bdick.png";
+import CrepeImage from "../assets/Crepe.png";
 
 function ProductsPage() {
   const products = [
-    {
-      id: 1,
-      title: "Sterilization Rolls",
-      image: "/src/assets/Rolls1.png",
-      description:
-        "Medical-grade sterilization rolls designed for secure packaging and reliable sterilization processes.",
-    },
-    {
-      id: 2,
-      title: "Sterilization Pouches",
-      image: "/src/assets/pouchs1.png",
-      description:
-        "Self-sealing and heat-seal pouches ensuring instrument protection and sterility maintenance.",
-    },
-    {
-      id: 3,
-      title: "Indicator Tapes",
-      image: "src/assets/Itapes.png",
-      description:
-        "High-performance indicator tapes for visual verification of sterilization cycles.",
-    },
-    {
-      id: 4,
-      title: "Chemical Indicators",
-      image: "src/assets/Strips.png",
-      description:
-        "Reliable monitoring products for validating sterilization effectiveness.",
-    },
-    {
-      id: 5,
-      title: "Bowie Dick Test Pack",
-      image: "src/assets/Bdick.png",
-      description:
-        "Designed to evaluate air removal efficiency and steam penetration in sterilizers.",
-    },
-    {
-      id: 6,
-      title: "CSSD Consumables",
-      image: "src/assets/Crepe.png",
-      description:
-        "Complete range of consumables supporting Central Sterile Supply Departments.",
-    },
-  ];
-
+  {
+    id: 1,
+    title: "Sterilization Rolls",
+    image: RollsImage,
+    description:
+      "Medical-grade sterilization rolls designed for secure packaging and reliable sterilization processes.",
+  },
+  {
+    id: 2,
+    title: "Sterilization Pouches",
+    image: PouchImage,
+    description:
+      "Self-sealing and heat-seal pouches ensuring instrument protection and sterility maintenance.",
+  },
+  {
+    id: 3,
+    title: "Indicator Tapes",
+    image: ITapesImage,
+    description:
+      "High-performance indicator tapes for visual verification of sterilization cycles.",
+  },
+  {
+    id: 4,
+    title: "Chemical Indicators",
+    image: StripsImage,
+    description:
+      "Reliable monitoring products for validating sterilization effectiveness.",
+  },
+  {
+    id: 5,
+    title: "Bowie Dick Test Pack",
+    image: BowieDickImage,
+    description:
+      "Designed to evaluate air removal efficiency and steam penetration in sterilizers.",
+  },
+  {
+    id: 6,
+    title: "CSSD Consumables",
+    image: CrepeImage,
+    description:
+      "Complete range of consumables supporting Central Sterile Supply Departments.",
+  },
+];
   return (
     <>
       <Navbar />

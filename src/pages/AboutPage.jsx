@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import TrustImage from "../assets/trust.jpg";
 
 import {
   FaShieldAlt,
@@ -87,10 +88,10 @@ function AboutPage() {
 
             <div>
               <img
-                src="/src/assets/trust.jpg"
-                alt="Company"
-                className="rounded-3xl shadow-xl"
-              />
+  src={TrustImage}
+  alt="Company"
+  className="rounded-3xl shadow-xl"
+/>
             </div>
 
             <div>
