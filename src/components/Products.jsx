@@ -1,33 +1,33 @@
 import ProductCard from "./ProductCard";
 import RollsImage from "../assets/Rolls1.png";
+import RollsImage from "../assets/Rolls1.png";
+import PouchImage from "../assets/pouchs1.png";
+import IndicatorImage from "../assets/item1.jpg";
+import CrepeImage from "../assets/crepe.png";
 
 function Products() {
   const products = [
-    {
-      title: "Sterilization Rolls",
-      image: "/src/assets/Rolls1.png",
-      description:
-        "Medical grade sterilization packaging rolls.",
-    },
-    {
-      title: "Sterilization Pouches",
-      image: "/src/assets/pouchs1.png",
-      description:
-        "Reliable self-sealing and heat-seal pouches.",
-    },
-    {
-      title: "Indicator Products",
-      image: "/src/assets/item1.jpg",
-      description:
-        "Chemical indicators and monitoring products.",
-    },
-    {
-      title: "CSSD Consumables",
-      image: "/src/assets/crepe.png",
-      description:
-        "Complete CSSD support consumables.",
-    },
-  ];
+  {
+    title: "Sterilization Rolls",
+    image: RollsImage,
+    description: "Medical grade sterilization packaging rolls.",
+  },
+  {
+    title: "Sterilization Pouches",
+    image: PouchImage,
+    description: "Reliable self-sealing and heat-seal pouches.",
+  },
+  {
+    title: "Indicator Products",
+    image: IndicatorImage,
+    description: "Chemical indicators and monitoring products.",
+  },
+  {
+    title: "CSSD Consumables",
+    image: CrepeImage,
+    description: "Complete CSSD support consumables.",
+  },
+];
 
   return (
     <section className="section-padding bg-slate-50">

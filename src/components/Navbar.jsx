@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
+import APSLogo from "../assets/APS4k.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,10 +39,10 @@ function Navbar() {
 
           <Link to="/" className="flex items-center">
   <img
-    src="/src/assets/APS4k.png"
-    alt="Aseptic Packaging"
-    className="h-30 w-auto"
-  />
+  src={APSLogo}
+  alt="Aseptic Packaging"
+  className="h-30 w-auto"
+/>
 </Link>
 
           <nav className="hidden lg:flex gap-8 items-center">
