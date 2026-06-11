@@ -210,33 +210,52 @@ function Footer() {
 
           {/* Contact */}
           <div>
+  <h4 className="text-xl font-semibold mb-6">
+    Contact Information
+  </h4>
 
-            <h4 className="text-xl font-semibold mb-6">
-              Contact Information
-            </h4>
+  <div className="space-y-5 text-slate-400">
 
-            <div className="space-y-5 text-slate-400">
+    {/* Address */}
+    <div className="flex gap-3 items-start">
+      <FaMapMarkerAlt className="text-sky-400 mt-1 flex-shrink-0" />
+      <span>
+        Ahmedabad, Gujarat, India
+      </span>
+    </div>
 
-              <div className="flex gap-3 items-start">
-                <FaMapMarkerAlt className="text-sky-400 mt-1" />
-                <span>
-                  Ahmedabad, Gujarat, India
-                </span>
-              </div>
+    {/* Phone */}
+    <div className="flex gap-3 items-start">
+      <FaPhoneAlt className="text-sky-400 mt-1 flex-shrink-0" />
+      <div className="flex flex-col">
+        <a
+          href="tel:+917984546166"
+          className="hover:text-white transition"
+        >
+          +91 79845 46166
+        </a>
+        <a
+          href="tel:+919106887561"
+          className="hover:text-white transition"
+        >
+          +91 91068 87561
+        </a>
+      </div>
+    </div>
 
-              <div className="flex gap-3 items-center">
-                <FaPhoneAlt className="text-sky-400" />
-                <span>+91 79845 46166</span>
-              </div>
+    {/* Email */}
+    <div className="flex gap-3 items-start">
+      <FaEnvelope className="text-sky-400 mt-1 flex-shrink-0" />
+      <a
+        href="mailto:info@asepticpackagingsolutions.com"
+        className="break-all hover:text-white transition"
+      >
+        info@asepticpackagingsolutions.com
+      </a>
+    </div>
 
-              <div className="flex gap-3 items-center">
-                <FaEnvelope className="text-sky-400" />
-                <span>info@asepticpackaging.com</span>
-              </div>
-
-            </div>
-
-          </div>
+  </div>
+</div>
 
         </div>
 
