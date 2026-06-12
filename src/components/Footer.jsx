@@ -38,7 +38,7 @@ function Footer() {
               </div>
 
               <a
-  href="https://wa.me/917984546166text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20sterilization%20rolls."
+  href="https://wa.me/917984546166"
   target="_blank"
   rel="noopener noreferrer"
   className="group inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-2xl shadow-xl transition-all duration-300 hover:-translate-y-1"
@@ -92,12 +92,12 @@ function Footer() {
                 <FaLinkedin />
               </a>
 
-              <a
+              {/* <a
                 href="#"
                 className="bg-slate-800 hover:bg-sky-600 p-3 rounded-xl transition"
               >
                 <FaFacebook />
-              </a>
+              </a> */}
 
               <a
                 href="#"
@@ -107,7 +107,7 @@ function Footer() {
               </a>
 
               <a
-                href="#"
+               href="https://wa.me/917984546166"
                 className="bg-slate-800 hover:bg-sky-600 p-3 rounded-xl transition"
               >
                 <FaWhatsapp />
