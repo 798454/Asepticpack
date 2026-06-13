@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import RollsImage from "../assets/Rolls1.png";
+import catalog from "/public/catalog/Aseptic_Flyer.pdf";
 import {
   FiArrowRight,
   FiShield,
@@ -65,8 +66,8 @@ function Hero() {
               </button> */}
 
               <a
-  href="/public/catalog/Aseptic_Flyer.pdf"
-  download
+  href={catalog}
+   download
   className="border border-slate-300 px-8 py-4 rounded-xl hover:bg-slate-50 transition inline-flex items-center"
 >
   Download Catalog
